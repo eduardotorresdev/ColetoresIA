@@ -1,0 +1,52 @@
+
+.btn-group {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.btn {
+    cursor: pointer;
+    background: #ffffff;
+    font-family: 'Press Start 2P', -apple-system, Segoe UI, sans-serif;
+    border: 0px;
+    padding: 1rem;
+    margin-bottom: .5rem;
+    box-shadow: inset -4px -4px 0px 0px #4AA52E;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    -webkit-transition: all 0.1s ease;
+    -moz-transition: all 0.1s ease;
+    -ms-transition: all 0.1s ease;
+    -o-transition: all 0.1s ease;
+    transition: all 0.1s ease;
+    }
+
+.btn:before {
+    border-top: 6px black solid;
+    border-bottom: 6px black solid;
+}
+
+.btn:after {
+    border-left: 6px black solid;
+    border-right: 6px black solid;
+}
+
+.btn.green {
+    background: #92CD41;
+    color: #ffffff;
+}
+
+.btn.green:hover {
+    background: #76c442;
+    color: #ffffff;
+}
