@@ -6,7 +6,7 @@ html, body {
 }
 
 body {
-    background: url('/img/bg.jpg') center no-repeat;
+    background: url('../img/bg.jpg') center no-repeat;
     background-size: 100%;
 }
 
