@@ -1,6 +1,6 @@
 
 .btn-group {
-    width: 30%;
+    width: 15%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,14 +8,36 @@
     flex-wrap: wrap;
 }
 
+.btn-group h5 {
+    color: #ffffff;
+    background: #e74c3c;
+    font-family: 'Roboto slab', -apple-system, Segoe UI, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    font-size: 26px;
+    margin-top: -80px;
+    margin-bottom: 10px;
+    padding: 0px 10px;
+    border-radius: .5rem;
+    -webkit-box-shadow: 0 5px 20px 0 rgba(000,000,000,0.4);
+    box-shadow: 0 5px 20px 0 rgba(000,000,000,0.4);
+}
+
 .btn {
     cursor: pointer;
     background: #ffffff;
-    font-family: 'Press Start 2P', -apple-system, Segoe UI, sans-serif;
+    font-family: 'Roboto slab', -apple-system, Segoe UI, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    width: 80%;
     border: 0px;
     padding: 1rem;
     margin-bottom: .5rem;
-    box-shadow: inset -4px -4px 0px 0px #4AA52E;
+    border-radius: .2rem;
+    -webkit-box-shadow:inset 0 -3px 0 0 rgba(000,000,000,0.3);
+    box-shadow:inset 0 -3px 0 0 rgba(000,000,000,0.3);
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
     -ms-transition: all 0.3s ease;
@@ -24,29 +46,86 @@
 }
 
 .btn:hover {
+    -webkit-box-shadow:inset 0 -3px 0 0 rgba(000,000,000,0.3);
+    box-shadow:inset 0 0px -3 0 rgba(000,000,000,0.3);
     -webkit-transition: all 0.1s ease;
     -moz-transition: all 0.1s ease;
     -ms-transition: all 0.1s ease;
     -o-transition: all 0.1s ease;
     transition: all 0.1s ease;
-    }
-
-.btn:before {
-    border-top: 6px black solid;
-    border-bottom: 6px black solid;
 }
 
-.btn:after {
-    border-left: 6px black solid;
-    border-right: 6px black solid;
+.btn:active {
+    -webkit-box-shadow:inset 0 0 0 0 #000000;
+    box-shadow:inset 0 0 0 0 #000000;
+    -webkit-transition: none;
+    -moz-transition: none;
+    -ms-transition: none;
+    -o-transition: none;
+    transition: none;
 }
 
 .btn.green {
-    background: #92CD41;
+    background: #27ae60;
     color: #ffffff;
 }
 
 .btn.green:hover {
-    background: #76c442;
+    background: #2ecc71;
     color: #ffffff;
+}
+
+.btn.green:active {
+    background: #28b161;
+}
+
+.btn.light-grey {
+    background: #ecf0f1;
+    color: #2c3e50;
+}
+
+.btn.light-grey:hover {
+    background: rgb(241, 245, 249);
+    color: #2c3e50;
+}
+
+.btn.light-grey:active {
+    background: #d5d9da;
+}
+
+
+.btn.simples:hover {
+    background: #e67e22;
+    color: #ffffff;
+}
+
+.btn.simples:active {
+    background: #cb6f1f;
+}
+
+.btn.modelos:hover {
+    background: #8e44ad;
+    color: #ffffff;
+}
+
+.btn.modelos:active {
+    background: #9b59b6;
+}
+
+.btn.objetivos:hover {
+    background: #2980b9;
+    color: #ffffff;
+}
+
+.btn.objetivos:active {
+    background: #3498db;
+}
+
+.btn.utilidade:hover {
+    background: #16a085;
+    color: #ffffff;
+}
+
+.btn.utilidade:active {
+    background: #1abc9c;
 }

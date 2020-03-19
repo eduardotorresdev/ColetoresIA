@@ -6,7 +6,8 @@ html, body {
 }
 
 body {
-    background: url('/img/bg.png') center no-repeat;
+    background: url('/img/bg.jpg') center no-repeat;
+    background-size: 100%;
 }
 
 * {
@@ -24,19 +25,7 @@ body {
     height: 100%;
     margin: 0 auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     flex-direction: row;
-}
-
-.wrapper {
-    display: flex;
-    position: relative;
-    width: 40%;
-    height: 80%;
-    overflow: auto;
-    border-radius: .5rem;
-    border: 2px solid #fff;
-    -webkit-box-shadow: 0 10px 40px 0 rgba(255,255,255,0.5);
-    box-shadow: 0 10px 40px 0 rgba(255,255,255,0.5);
 }
